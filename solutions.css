@@ -124,7 +124,7 @@ img.ex-9-img:hover{
 }
 
 
-/*ESERCIZIO 9*/
+/*ESERCIZIO 10*/
 .ex-10-icon{
     animation: ruotasinistra 1s linear infinite;
 }
@@ -141,5 +141,26 @@ img.ex-9-img:hover{
 @keyframes ruotadestra{
     100%{
         transform: rotate(360deg);
+    }
+}
+
+
+/*ESERCIZIO 11*/
+.ex-11-icon:hover{
+    animation: ruotadestra 2s linear;
+}
+
+@keyframes ruotadestra{
+    100%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    90%{
+        transform: rotate(315deg);
     }
 }
