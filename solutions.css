@@ -90,3 +90,12 @@ img.ex-6-img:hover{
     filter: grayscale(1)
 }
 
+
+/*ESERCIZIO 7*/
+.ex-7-img{
+    transition: all 2s ease 0s;
+}
+
+img.ex-7-img:hover{
+    filter: saturate(0.6) sepia(0.6);
+}
