@@ -1,0 +1,92 @@
+/*ESERCIZIO 1*/
+.ex-1-square{
+    transition: all 2s ease 0s;
+}
+
+div.ex-1-square:hover{
+    background-color: red;
+}
+
+
+/*ESERCIZIO 2*/
+.ex-2-square{
+    transition: all 2s ease 0s;
+}
+
+div.ex-2-square:active{
+    width: 100%;
+}
+
+
+/*ESERCIZIO 3*/
+.ex-3-square{
+    transition: all 0.5s ease 0s;
+}
+
+div.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+
+/*ESERCIZIO 4*/
+.ex-4-square{
+    transition: all 1s ease 0s;
+}
+
+div.ex-4-square:hover{
+    opacity: 0;
+}
+
+
+/*ESERCIZIO 5*/
+.ex-5-square{
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+}
+
+.ex-5-square::before{
+    content: "";
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    transition: all 1s ease 0s;
+    top:0;
+    left: 0;
+}
+
+.ex-5-square:hover::before{
+    width: 120px;
+    height: 120px;
+    top:-30px;
+    left: -30px;
+}
+
+.ex-5-square:active::before{
+    width:30px;
+    height:30px;
+    top:15px;
+    left:15px;
+}
+
+/* era poco fantasiosa
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+
+}*/
+
+
+/*ESERCIZIO 6*/
+.ex-6-img{
+    transition: all 0.2s ease 0s;
+}
+
+img.ex-6-img:hover{
+    filter: grayscale(1)
+}
+
