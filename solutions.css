@@ -164,3 +164,107 @@ img.ex-9-img:hover{
         transform: rotate(315deg);
     }
 }
+
+
+/*ESERCIZIO 12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: top-white-12 2s linear;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-white-12 2s linear;  
+}
+@keyframes top-white-12{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: 69%;
+    }
+    90%{
+        left: 10%;
+    }
+}
+
+@keyframes bottom-white-12{
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: 69%;
+    }
+    90%{
+        right: 20%;
+    }
+}
+
+
+/*ESERCIZIO 13*/
+.ex-13-button:hover .ex-13-top-white{
+    animation: top-white-13 2s linear;
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bottom-white-13 2s linear;  
+}
+
+/*il top deve andare da -10 a 50px
+il left deve arrivare a 70/75% 
+partendo da 10%*/
+
+@keyframes top-white-13{
+    0%{
+        left: 10%;
+        top:-10px;
+    }
+    30%{
+        left: 75%;
+        top:-10px;
+    }
+    40%{
+        left: 75%;
+        top:50px;
+    }
+    70%{
+        left: -5%;
+        top:50px;
+    }
+    80%{
+        left: -5%;
+        top:-10px;
+    }
+    95%{
+        left: 10%;
+        top:-10px;
+    }
+}
+
+/*bottom deve andare da -10 a 50px
+il right deve arrivare a 70/75% 
+partendo da 20%*/
+
+@keyframes bottom-white-13{
+    0%{
+        right: 20%;
+        bottom:-10px;
+    }
+    30%{
+        right: 75%;
+        bottom:-10px;
+    }
+    40%{
+        right: 75%;
+        bottom:50px;
+    }
+    70%{
+        right: -5%;
+        bottom:50px;
+    }
+    80%{
+        right: -5%;
+        bottom:-10px;
+    }
+    95%{
+        right: 20%;
+        bottom:-10px;
+    }
+}
+
