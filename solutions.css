@@ -128,21 +128,13 @@ img.ex-9-img:hover{
 .ex-10-icon{
     animation: ruotasinistra 1s linear infinite;
 }
-.ex-10-icon:hover{
-    animation: ruotadestra 1s linear infinite;
-}
-
 
 @keyframes ruotasinistra{
     0%{
         transform: rotate(360deg);
     }
 }
-@keyframes ruotadestra{
-    100%{
-        transform: rotate(360deg);
-    }
-}
+
 
 
 /*ESERCIZIO 11*/
