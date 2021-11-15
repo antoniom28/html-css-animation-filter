@@ -99,3 +99,47 @@ img.ex-6-img:hover{
 img.ex-7-img:hover{
     filter: saturate(0.6) sepia(0.6);
 }
+
+
+/*ESERCIZIO 8*/
+.ex-8-img{
+    transition: all 2s ease 0s;
+}
+
+img.ex-8-img:hover{
+    filter: saturate(0.6) sepia(0.6);
+    border-radius: 20px;
+}
+
+
+/*ESERCIZIO 9*/
+.ex-9-img{
+    transition: all 2s ease 0s;
+}
+
+img.ex-9-img:hover{
+    filter: saturate(0.6) sepia(0.6);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+
+/*ESERCIZIO 9*/
+.ex-10-icon{
+    animation: ruotasinistra 1s linear infinite;
+}
+.ex-10-icon:hover{
+    animation: ruotadestra 1s linear infinite;
+}
+
+
+@keyframes ruotasinistra{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes ruotadestra{
+    100%{
+        transform: rotate(360deg);
+    }
+}
